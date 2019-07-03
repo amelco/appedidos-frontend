@@ -1,0 +1,66 @@
+section div#sort-list {
+    background: #eee;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+section div#sort-list button {
+    border: 1;
+    border-radius: 4px;
+    padding: 1px;
+    border-style: hidden;
+    background: #eee;
+    cursor: pointer;
+    font-size: 12px;
+    color: #ff6347;
+}
+
+section#lista-pedidos {
+    width: 100%;
+    max-width: 580px;
+    margin: 0 auto;
+    padding: 0 30px;
+    
+}
+
+section#lista-pedidos article {
+    margin-top: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fff;
+    padding: 20px;
+    
+}
+
+section#lista-pedidos article header {
+    border-bottom: 1px solid #ddd;
+}
+
+section#lista-pedidos article header .user-info {
+    font-size: 20px;
+}
+
+section#lista-pedidos article .pedido {
+    margin-top: 10px;
+    font-size: 22px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+section#lista-pedidos article .pedido .data-entrega {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #ff6347;
+}
+
+section#lista-pedidos article footer {
+    margin-top: 10px; 
+    margin-bottom: 30px; 
+}
+
+section#lista-pedidos article footer img {
+    float: right;
+    cursor: pointer;
+}

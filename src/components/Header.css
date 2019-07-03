@@ -1,0 +1,21 @@
+header#main-header {                    /* cabeçalho geral */
+    background: #fff;                 /* cor de fundo */
+    height: 72px;                       /* altura */
+    border-bottom: solid 1px #ddd;    /* borda inferior com 1 pixel de largura */
+}
+
+header#main-header .header-content {    /* conteúdo do cabeçalho */
+    width: 100%;                        /* largura ocupa 100% da área */
+    max-width: 980px;                   /* largura (área) máxima */
+    margin: 0 auto;                     /* centralizar */
+    height: 72px;                       /* altura igual a do cabeçalho geral */
+    padding: 0 30px;                    /* distância entre conteúdo e borda */
+
+     display: flex;                     /* outras opções de alinhamento */
+     align-items: center;               /* centraliza verticalmente */
+     justify-content: space-between;    /* alinha um item à esq. e outro à dir. */
+}
+
+header#main-header .header-content img { /* imagens do cabeçalho */
+    
+}
