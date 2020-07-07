@@ -21,6 +21,7 @@ class Pedido extends Component {
     // alternative: async handleEntrega = idPedido => {}
     async handleEntrega(idPedido) {
         await api.post(`/listPedidos/${idPedido}/entregar`);
+        this.handleListEntregues("Listar não-entregues");
     }
 
     async handleListEntregues(txtEntregue) {
