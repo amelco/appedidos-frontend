@@ -5,6 +5,13 @@ O resultado final do (backend + frotend) está disponível em:
 
 [TOC]
 
+# Instalação
+
+1. `npm install`  
+2. `npm audit fix` (corrige vulnerabilidades em pacotes antigos do React)
+3. `npm start`
+4. Abra `http://localhost:3000` no navegador
+
 # Pequeno manual introdutório do ReactJS
 
 Dando continuidade à construção da aplicação **appedidos**, vamos construir o nosso *frontend* utilizando ReactJS.
